@@ -1,174 +1,156 @@
 """
-
-Author: Hossin azmoud (Moody0101)
+Author: Hossin Azmoud (Moody0101)
 Date: 10/18/2022
-LICENCE: MIT
-Language: Python3.10
-
+License: MIT
+Language: Python 3.10
 """
 
-from time import sleep, time
+from time import sleep
 from colorama import Fore as f
 from UtilPackage import (
-	Shell, 
-	Command,
-	ENCODING,
-	HASHING,
-	EncodingManager, # EncodingManager(Func: callable, s: str | bytes, Op: int)
-	ENCODE, 
-	DECODE,
-	Hasher # Hasher(HashingFunc: callable, s: str | bytes) -> str: 
+    Shell,
+    Command,
+    ENCODING,
+    HASHING,
+    EncodingManager,  # EncodingManager(Func: callable, s: str | bytes, Op: int)
+    ENCODE,
+    DECODE,
+    Hasher  # Hasher(HashingFunc: callable, s: str | bytes) -> str
 )
 
 DOC = f"""{f.YELLOW}
 
-	Author: Hossin azmoud (Moody0101)
-	Date: 10/18/2022
-	LICENCE: MIT
-	Language: {f.CYAN}Python3.10 {f.YELLOW}
-	Descripion: A tool to hash, encode, decode text.
-	command: hash, encode, decode, help, exit
-	Usage: 
-		To encode/Decode:
-			Encode/Decode <Text> <Algorithm>
-			Encode/Decode only for help.
-		To hash:
-			Hash <Text> <Algorithm>
-			Hash only for help.
+Author: Hossin Azmoud (Moody0101)
+Date: 10/18/2022
+License: MIT
+Language: {f.CYAN}Python 3.10{f.YELLOW}
+Description: A tool to hash, encode, decode text.
+Commands: hash, encode, decode, help, exit
+
+Usage:
+    To encode/decode:
+        Encode/Decode <Text> <Algorithm>
+        Encode/Decode only for help.
+    To hash:
+        Hash <Text> <Algorithm>
+        Hash only for help.
 """
 
+
 class Interface:
-	""" An interface that handles user interactions with the shell program """
-	
-	def __init__(self) -> None:
-		# Shell initializer
-		self.shell = Shell()
-		
-		
-		self.DefaultCommands = {
-			'EXIT': self.Exit,
-			'HELP': self.Help,
-			"HASH": self.hashDoc,
-			"DECODE": self.DeDoc,
-			"ENCODE": self.EnDoc
-		}
+    """An interface that handles user interactions with the shell program."""
 
-		self.Commands = {
-			"HASH": self.hashVal,
-			"DECODE": self.Decode,
-			"ENCODE": self.Encode
-		}
+    def __init__(self) -> None:
+        self.shell = Shell()
 
-	def hashDoc(self):
-		""" Displays doc for hashing """
-		return HASHING["Doc"] 
+        self.default_commands = {
+            'EXIT': self.exit_program,
+            'HELP': self.help_text,
+            'HASH': self.hash_doc,
+            'DECODE': self.decode_doc,
+            'ENCODE': self.encode_doc
+        }
 
-	def DeDoc(self):
-		""" Displays doc for decoding """
-		return ENCODING["Doc"][DECODE]
+        self.commands = {
+            'HASH': self.hash_value,
+            'DECODE': self.decode,
+            'ENCODE': self.encode
+        }
 
-	def EnDoc(self):
-		""" Displays doc for encoding """
-		return ENCODING["Doc"][ENCODE]
+    def hash_doc(self):
+        """Displays documentation for hashing."""
+        return HASHING["Doc"]
 
-	def Encode(self, Text, EncoderName):
-		if EncoderName.upper().strip() not in ENCODING.keys():
-			print()
-			print(f"  False algorithm name, {EncoderName}")
-			print("  you can only use from this list:")
-			for i in ENCODING.keys():
-				print("    %s", i)
-			return
+    def decode_doc(self):
+        """Displays documentation for decoding."""
+        return ENCODING["Doc"][DECODE]
 
-		# Get Encoder function
-		func_ = ENCODING[EncoderName.upper().strip()][ENCODE]
-		# Map the value
-		encode = EncodingManager(func_, ENCODE)
-		# return the value
-		return encode(Text)
+    def encode_doc(self):
+        """Displays documentation for encoding."""
+        return ENCODING["Doc"][ENCODE]
 
-	def Decode(self, Text, DecoderName):
-		if DecoderName.upper().strip() not in ENCODING.keys():
-			print()
-			print(f"  False algorithm name, {DecoderName}")
-			print("  you can only use from this list:")
-			for i in ENCODING.keys():
-				print("    %s", i)
-			return
+    def encode(self, text, encoder_name):
+        encoder_key = encoder_name.upper().strip()
+        if encoder_key not in ENCODING:
+            print(f"\n  Invalid algorithm name: {encoder_name}")
+            print("  Available algorithms:")
+            for key in ENCODING:
+                print(f"    {key}")
+            return
 
-		# Get Encoder function
-		func_ = ENCODING[DecoderName.upper().strip()][DECODE]
-		# Map the value
-		decode = EncodingManager(func_, DECODE)
-		# return the value
-		return decode(Text)
+        func = ENCODING[encoder_key][ENCODE]
+        encoder = EncodingManager(func, ENCODE)
+        return encoder(text)
 
-	def hashVal(self, Text, HasherName):
-		if HasherName.upper().strip() not in HASHING.keys():
-			print()
-			print(f"  False algorithm name, {DecoderName}")
-			print("  you can only use from this list:")
-			for i in HASHING.keys():
-				print("    %s", i)
-			return
+    def decode(self, text, decoder_name):
+        decoder_key = decoder_name.upper().strip()
+        if decoder_key not in ENCODING:
+            print(f"\n  Invalid algorithm name: {decoder_name}")
+            print("  Available algorithms:")
+            for key in ENCODING:
+                print(f"    {key}")
+            return
 
-		return Hasher(HASHING[HasherName.upper().strip()], Text)
+        func = ENCODING[decoder_key][DECODE]
+        decoder = EncodingManager(func, DECODE)
+        return decoder(text)
 
-	def showFuncs(self):
-		
-		if self.Tool:
-			for i in CONFIG[self.Tool].keys():
-				print("  ", i)
+    def hash_value(self, text, hasher_name):
+        hasher_key = hasher_name.upper().strip()
+        if hasher_key not in HASHING:
+            print(f"\n  Invalid algorithm name: {hasher_name}")
+            print("  Available algorithms:")
+            for key in HASHING:
+                print(f"    {key}")
+            return
 
-	def SetText(self, Text = None): 
-		self.text = Text
+        return Hasher(HASHING[hasher_key], text)
 
-	def Exit(self) -> None:
-		
-		for i in ['.', '..', '...']:
-			print(f"  Exiting{i}", end="\r")
-			sleep(1)
-		exit(0)
+    def set_text(self, text=None):
+        self.text = text
 
-	def Help(self):
-		return """
+    def exit_program(self) -> None:
+        for dots in ['.', '..', '...']:
+            print(f"  Exiting{dots}", end='\r')
+            sleep(1)
+        exit(0)
 
-	To encode/Decode:
-		Encode/Decode <Text> <Algorithm>
-		Encode/Decode only for help.
-	To hash:
-		Hash <Text> <Algorithm>
-		Hash only for help.
+    def help_text(self):
+        """Returns help instructions."""
+        return """
+To encode/decode:
+    Encode/Decode <Text> <Algorithm>
+    Encode/Decode only for help.
+To hash:
+    Hash <Text> <Algorithm>
+    Hash only for help.
+"""
 
-		"""
+    def execute(self, command: Command) -> None:
+        """Execute given command with arguments if available."""
+        if command.CMD in self.default_commands:
+            if command.argv:
+                print(self.commands[command.CMD](*command.argv))
+            else:
+                print(self.default_commands[command.CMD]())
+        elif command.CMD in self.commands:
+            if command.argv:
+                print(self.commands[command.CMD](*command.argv))
+            else:
+                print(self.commands[command.CMD]())
 
-	def execute(self, command: Command) -> None:
-		"""  """
-		if command.CMD in self.DefaultCommands.keys():
-			if len(command.argv) > 0:
-				print(self.Commands[command.CMD](*command.argv))
-			else:
-				print(self.DefaultCommands[command.CMD]())
-		elif command.CMD in self.Commands.keys():
-			if len(command.argv) > 0:
-				print(self.Commands[command.CMD](*command.argv))
-			else:
-				print(self.Commands[command.CMD]())
+    def run(self) -> None:
+        print(DOC)
+        while True:
+            command = self.shell.shellInput()
+            if command:
+                self.execute(command)
 
-	def run(self) -> None:
-		print()
-		print(DOC)
-		Interact = True
-		while Interact:
-			self.command = self.shell.shellInput()
-			if self.command:
-				self.execute(self.command)
-			else:
-				pass
 
 def main():
-	Interface_ = Interface()
-	Interface_.run()
+    interface = Interface()
+    interface.run()
+
 
 if __name__ == '__main__':
-	main()
+    main()
