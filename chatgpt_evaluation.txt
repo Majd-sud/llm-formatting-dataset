@@ -1,0 +1,318 @@
+===== ChatGPT File Evaluation Report =====
+
+FLAKE8 Style Violations
+
+File: cex1.py
+cex1.py:15:80: E501 line too long (80 > 79 characters)
+
+File: cex10.py
+No violations found.
+
+File: cex11.py
+No violations found.
+
+File: cex12.py
+cex12.py:7:80: E501 line too long (80 > 79 characters)
+cex12.py:53:80: E501 line too long (83 > 79 characters)
+cex12.py:56:80: E501 line too long (84 > 79 characters)
+cex12.py:61:80: E501 line too long (90 > 79 characters)
+
+File: cex13.py
+No violations found.
+
+File: cex14.py
+cex14.py:19:80: E501 line too long (80 > 79 characters)
+cex14.py:29:80: E501 line too long (86 > 79 characters)
+cex14.py:37:80: E501 line too long (86 > 79 characters)
+cex14.py:75:80: E501 line too long (88 > 79 characters)
+cex14.py:78:80: E501 line too long (105 > 79 characters)
+
+File: cex15.py
+No violations found.
+
+File: cex16.py
+No violations found.
+
+File: cex17.py
+No violations found.
+
+File: cex18.py
+cex18.py:4:80: E501 line too long (83 > 79 characters)
+cex18.py:5:80: E501 line too long (94 > 79 characters)
+cex18.py:13:80: E501 line too long (88 > 79 characters)
+cex18.py:65:80: E501 line too long (80 > 79 characters)
+cex18.py:66:80: E501 line too long (84 > 79 characters)
+cex18.py:132:80: E501 line too long (92 > 79 characters)
+cex18.py:156:80: E501 line too long (93 > 79 characters)
+cex18.py:316:80: E501 line too long (84 > 79 characters)
+
+File: cex19.py
+cex19.py:3:80: E501 line too long (89 > 79 characters)
+cex19.py:7:1: F401 'json' imported but unused
+cex19.py:8:1: F401 'csv' imported but unused
+cex19.py:9:1: F401 'random' imported but unused
+cex19.py:10:1: F401 'datetime' imported but unused
+cex19.py:11:1: F401 're' imported but unused
+cex19.py:12:1: F401 'os' imported but unused
+cex19.py:13:1: F401 'sys' imported but unused
+cex19.py:14:1: F401 'math' imported but unused
+cex19.py:16:1: F401 'collections' imported but unused
+cex19.py:17:1: F401 'functools' imported but unused
+cex19.py:41:5: F841 local variable 'minimum' is assigned to but never used
+cex19.py:42:5: F841 local variable 'maximum' is assigned to but never used
+cex19.py:43:5: F841 local variable 'median' is assigned to but never used
+cex19.py:160:5: F841 local variable 'config' is assigned to but never used
+cex19.py:172:5: F841 local variable 'error_codes' is assigned to but never used
+
+File: cex2.py
+cex2.py:8:80: E501 line too long (85 > 79 characters)
+cex2.py:33:80: E501 line too long (83 > 79 characters)
+cex2.py:39:80: E501 line too long (83 > 79 characters)
+cex2.py:41:80: E501 line too long (81 > 79 characters)
+cex2.py:85:80: E501 line too long (98 > 79 characters)
+
+File: cex20.py
+cex20.py:2:80: E501 line too long (86 > 79 characters)
+cex20.py:3:80: E501 line too long (92 > 79 characters)
+cex20.py:107:5: F841 local variable 'admin_password' is assigned to but never used
+cex20.py:205:80: E501 line too long (83 > 79 characters)
+
+File: cex21.py
+cex21.py:2:80: E501 line too long (83 > 79 characters)
+cex21.py:3:80: E501 line too long (84 > 79 characters)
+cex21.py:37:16: E741 ambiguous variable name 'l'
+
+File: cex22.py
+cex22.py:2:80: E501 line too long (82 > 79 characters)
+cex22.py:3:80: E501 line too long (94 > 79 characters)
+cex22.py:6:1: F401 'csv' imported but unused
+cex22.py:10:1: F401 'math' imported but unused
+cex22.py:13:1: F401 're' imported but unused
+cex22.py:15:1: F401 'typing.List' imported but unused
+cex22.py:15:1: F401 'typing.Optional' imported but unused
+cex22.py:15:1: F401 'typing.Tuple' imported but unused
+cex22.py:15:1: F401 'typing.Union' imported but unused
+cex22.py:63:80: E501 line too long (80 > 79 characters)
+cex22.py:99:80: E501 line too long (89 > 79 characters)
+cex22.py:128:80: E501 line too long (84 > 79 characters)
+cex22.py:134:80: E501 line too long (90 > 79 characters)
+cex22.py:159:80: E501 line too long (80 > 79 characters)
+cex22.py:222:80: E501 line too long (81 > 79 characters)
+cex22.py:229:80: E501 line too long (104 > 79 characters)
+cex22.py:243:80: E501 line too long (104 > 79 characters)
+cex22.py:249:80: E501 line too long (87 > 79 characters)
+
+File: cex23.py
+cex23.py:2:80: E501 line too long (104 > 79 characters)
+cex23.py:6:1: F401 'enum.Enum' imported but unused
+cex23.py:7:1: F401 'typing.List' imported but unused
+cex23.py:11:80: E501 line too long (102 > 79 characters)
+cex23.py:26:80: E501 line too long (85 > 79 characters)
+cex23.py:27:80: E501 line too long (84 > 79 characters)
+cex23.py:28:80: E501 line too long (108 > 79 characters)
+cex23.py:33:80: E501 line too long (86 > 79 characters)
+cex23.py:34:80: E501 line too long (111 > 79 characters)
+cex23.py:47:80: E501 line too long (84 > 79 characters)
+cex23.py:77:80: E501 line too long (93 > 79 characters)
+cex23.py:78:80: E501 line too long (92 > 79 characters)
+cex23.py:79:80: E501 line too long (107 > 79 characters)
+cex23.py:92:80: E501 line too long (95 > 79 characters)
+cex23.py:102:80: E501 line too long (85 > 79 characters)
+cex23.py:103:80: E501 line too long (84 > 79 characters)
+cex23.py:104:80: E501 line too long (88 > 79 characters)
+
+File: cex3.py
+No violations found.
+
+File: cex4.py
+cex4.py:1:80: E501 line too long (84 > 79 characters)
+
+File: cex5.py
+cex5.py:17:80: E501 line too long (85 > 79 characters)
+
+File: cex6.py
+cex6.py:11:1: F401 'shell.api.decode' imported but unused
+
+File: cex7.py
+cex7.py:12:80: E501 line too long (88 > 79 characters)
+cex7.py:27:1: W293 blank line contains whitespace
+cex7.py:30:1: W293 blank line contains whitespace
+cex7.py:34:80: E501 line too long (117 > 79 characters)
+
+File: cex8.py
+No violations found.
+
+File: cex9.py
+No violations found.
+
+
+Radon Cyclomatic Complexity
+
+cex1.py
+    M 129:4 Interface.execute - A
+    C 40:0 Interface - A
+    M 72:4 Interface.encode - A
+    M 85:4 Interface.decode - A
+    M 98:4 Interface.hash_value - A
+    M 142:4 Interface.run - A
+    M 112:4 Interface.exit_program - A
+    F 150:0 main - A
+    M 43:4 Interface.__init__ - A
+    M 60:4 Interface.hash_doc - A
+    M 64:4 Interface.decode_doc - A
+    M 68:4 Interface.encode_doc - A
+    M 109:4 Interface.set_text - A
+    M 118:4 Interface.help_text - A
+cex10.py
+    F 12:0 load_config - A
+    F 28:0 test_function - A
+    C 7:0 Config - A
+cex11.py
+    C 16:0 Order - A
+    C 6:0 OrderStatus - A
+    M 31:4 Order.create_line_item - A
+    M 44:4 Order.set_status - A
+cex12.py
+    C 12:0 OrderRepository - A
+    C 26:0 StripePaymentProcessor - A
+    M 45:4 StripePaymentProcessor.process_payment - A
+    C 5:0 PaymentServiceConnectionError - A
+    M 17:4 OrderRepository.find_order - A
+    M 21:4 OrderRepository.compute_order_total_price - A
+    M 31:4 StripePaymentProcessor.__init__ - A
+    M 35:4 StripePaymentProcessor.connect_to_service - A
+cex13.py
+    C 5:0 OrderManagementSystem - A
+    M 36:4 OrderManagementSystem.compute_order_total_price - A
+    M 11:4 OrderManagementSystem.__init__ - A
+    M 14:4 OrderManagementSystem.create_order - A
+    M 24:4 OrderManagementSystem.find_order - A
+cex14.py
+    C 8:0 Employee - B
+    M 14:4 Employee.take_a_holiday - A
+    C 53:0 Company - A
+    M 63:4 Company.find_managers - A
+    M 66:4 Company.find_vice_presidents - A
+    M 69:4 Company.find_interns - A
+    M 72:4 Company.pay_employee - A
+    F 81:0 main - A
+    C 41:0 HourlyEmployee - A
+    C 48:0 SalariedEmployee - A
+    M 56:4 Company.__init__ - A
+    M 59:4 Company.add_employee - A
+cex15.py
+    C 5:0 Customer - A
+cex16.py
+    C 5:0 LineItem - A
+    M 13:4 LineItem.total_price - A
+cex17.py
+    F 5:0 main - A
+cex18.py
+    F 64:0 calculate_insurance_premium - D
+    F 12:0 determine_user_access_level - C
+    F 155:0 process_customer_order - C
+    F 251:0 process_payment - A
+    F 260:0 generate_report - A
+    C 294:0 ReportConfig - A
+    F 246:0 calculate_shipping_cost - A
+    F 314:0 generate_report_better - A
+    M 295:4 ReportConfig.__init__ - A
+cex19.py
+    F 51:0 validate_password - B
+    F 78:0 process_status_code - B
+    F 110:0 process_data - A
+    C 130:0 Logger - A
+    F 20:0 process_user_data - A
+    F 34:0 calculate_statistics - A
+    F 94:0 generate_report - A
+    F 151:0 cleanup_resources - A
+    F 157:0 main - A
+    M 133:4 Logger.__init__ - A
+    M 137:4 Logger.log - A
+    M 146:4 Logger.get_logs - A
+cex2.py
+    C 12:0 Employee - B
+    M 19:4 Employee.take_a_holiday - A
+    C 59:0 Company - A
+    M 69:4 Company.find_managers - A
+    M 73:4 Company.find_vice_presidents - A
+    M 77:4 Company.find_interns - A
+    M 81:4 Company.pay_employee - A
+    F 94:0 main - A
+    C 45:0 HourlyEmployee - A
+    C 53:0 SalariedEmployee - A
+    M 62:4 Company.__init__ - A
+    M 65:4 Company.add_employee - A
+cex20.py
+    F 124:0 calculate_shipping_cost - B
+    F 10:0 calculate_price - A
+    F 37:0 retry_operation - A
+    F 176:0 calculate_price_better - A
+    F 22:0 fetch_data_from_api - A
+    F 104:0 authenticate_user - A
+    F 59:0 connect_to_services - A
+    F 85:0 read_configuration - A
+    F 147:0 process_user_data - A
+    F 202:0 connect_to_services_better - A
+    C 188:0 ServiceConfig - A
+cex21.py
+    F 125:0 min - A
+    F 37:0 calc_stats - A
+    F 75:0 process_data - A
+    F 152:0 calculate_statistics - A
+    F 98:0 x - A
+    F 115:0 list - A
+    C 12:0 userAccount - A
+    C 131:0 UserAccount - A
+    F 61:0 FetchUserData - A
+    F 110:0 f - A
+    F 120:0 str - A
+    M 13:4 userAccount.__init__ - A
+    M 19:4 userAccount.vErYInTEReSTINGFuNCtION - A
+    M 23:4 userAccount.getUserDetails - A
+    M 31:4 userAccount.update_user_info - A
+    M 132:4 UserAccount.__init__ - A
+    M 138:4 UserAccount.get_user_details - A
+    M 146:4 UserAccount.update_user_info - A
+cex22.py
+    F 19:0 process_customer_order_long - E
+cex23.py
+    F 11:0 check_user_permission_nested - E
+cex4.py
+    F 34:0 encode - A
+    F 42:0 decode - A
+    F 50:0 hash_val - A
+    F 4:0 encoding_algos - A
+    F 9:0 decoding_algos - A
+    F 14:0 hashing_algos - A
+    F 19:0 has_encoding_algo - A
+    F 24:0 has_decoding_algo - A
+    F 29:0 has_hashing_algo - A
+cex5.py
+    F 34:0 parse_command_string - A
+    F 22:0 execute - A
+    F 68:0 run_shell - A
+    F 11:0 add_command - A
+    F 57:0 shell_input - A
+cex6.py
+    F 71:0 process_hash - A
+    F 86:0 process_decode - A
+    F 101:0 process_encode - A
+    F 58:0 exit_shell - A
+    F 66:0 help_shell - A
+    F 116:0 main - A
+cex7.py
+    C 21:0 Shell - A
+    M 38:4 Shell.parse_cmd - A
+    C 6:0 Command - A
+    M 17:4 Command.get_arg_str - A
+    M 24:4 Shell.shell_input - A
+    M 11:4 Command.__repr__ - A
+    M 14:4 Command.__str__ - A
+cex8.py
+    F 4:0 EncodingManager - A
+cex9.py
+    F 1:0 Hasher - A
+
+143 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.867132867132867)

@@ -1,0 +1,455 @@
+===== Black File Evaluation Report =====
+
+FLAKE8 Style Violations
+
+File: ex1.py
+ex1.py:10:1: F401 'time.time' imported but unused
+ex1.py:17:80: E501 line too long (80 > 79 characters)
+ex1.py:25:1: W191 indentation contains tabs
+ex1.py:25:1: E101 indentation contains mixed spaces and tabs
+ex1.py:26:1: W191 indentation contains tabs
+ex1.py:26:1: E101 indentation contains mixed spaces and tabs
+ex1.py:27:1: W191 indentation contains tabs
+ex1.py:27:1: E101 indentation contains mixed spaces and tabs
+ex1.py:28:1: W191 indentation contains tabs
+ex1.py:28:1: E101 indentation contains mixed spaces and tabs
+ex1.py:29:1: W191 indentation contains tabs
+ex1.py:29:1: E101 indentation contains mixed spaces and tabs
+ex1.py:30:1: W191 indentation contains tabs
+ex1.py:30:1: E101 indentation contains mixed spaces and tabs
+ex1.py:31:1: W191 indentation contains tabs
+ex1.py:31:1: E101 indentation contains mixed spaces and tabs
+ex1.py:31:8: W291 trailing whitespace
+ex1.py:32:1: W191 indentation contains tabs
+ex1.py:32:1: E101 indentation contains mixed spaces and tabs
+ex1.py:33:1: W191 indentation contains tabs
+ex1.py:33:1: E101 indentation contains mixed spaces and tabs
+ex1.py:34:1: W191 indentation contains tabs
+ex1.py:34:1: E101 indentation contains mixed spaces and tabs
+ex1.py:35:1: W191 indentation contains tabs
+ex1.py:35:1: E101 indentation contains mixed spaces and tabs
+ex1.py:36:1: W191 indentation contains tabs
+ex1.py:36:1: E101 indentation contains mixed spaces and tabs
+ex1.py:37:1: W191 indentation contains tabs
+ex1.py:37:1: E101 indentation contains mixed spaces and tabs
+ex1.py:109:46: F821 undefined name 'DecoderName'
+ex1.py:120:22: F821 undefined name 'CONFIG'
+ex1.py:136:1: W191 indentation contains tabs
+ex1.py:136:1: E101 indentation contains mixed spaces and tabs
+ex1.py:137:1: W191 indentation contains tabs
+ex1.py:137:1: E101 indentation contains mixed spaces and tabs
+ex1.py:138:1: W191 indentation contains tabs
+ex1.py:138:1: E101 indentation contains mixed spaces and tabs
+ex1.py:139:1: W191 indentation contains tabs
+ex1.py:139:1: E101 indentation contains mixed spaces and tabs
+ex1.py:140:1: W191 indentation contains tabs
+ex1.py:140:1: E101 indentation contains mixed spaces and tabs
+ex1.py:141:1: W191 indentation contains tabs
+ex1.py:141:1: E101 indentation contains mixed spaces and tabs
+ex1.py:143:1: W191 indentation contains tabs
+ex1.py:143:1: E101 indentation contains mixed spaces and tabs
+
+File: ex10.py
+No violations found.
+
+File: ex11.py
+No violations found.
+
+File: ex12.py
+ex12.py:6:80: E501 line too long (86 > 79 characters)
+ex12.py:21:80: E501 line too long (80 > 79 characters)
+ex12.py:30:80: E501 line too long (87 > 79 characters)
+
+File: ex13.py
+No violations found.
+
+File: ex14.py
+ex14.py:21:80: E501 line too long (83 > 79 characters)
+ex14.py:63:80: E501 line too long (100 > 79 characters)
+
+File: ex15.py
+No violations found.
+
+File: ex16.py
+No violations found.
+
+File: ex17.py
+No violations found.
+
+File: ex18.py
+ex18.py:2:80: E501 line too long (83 > 79 characters)
+ex18.py:3:80: E501 line too long (94 > 79 characters)
+ex18.py:393:80: E501 line too long (84 > 79 characters)
+
+File: ex19.py
+ex19.py:3:80: E501 line too long (89 > 79 characters)
+ex19.py:7:1: F401 'json' imported but unused
+ex19.py:8:1: F401 'csv' imported but unused
+ex19.py:9:1: F401 'random' imported but unused
+ex19.py:10:1: F401 'datetime' imported but unused
+ex19.py:11:1: F401 're' imported but unused
+ex19.py:12:1: F401 'os' imported but unused
+ex19.py:13:1: F401 'sys' imported but unused
+ex19.py:14:1: F401 'math' imported but unused
+ex19.py:16:1: F401 'collections' imported but unused
+ex19.py:17:1: F401 'functools' imported but unused
+ex19.py:39:5: F841 local variable 'minimum' is assigned to but never used
+ex19.py:40:5: F841 local variable 'maximum' is assigned to but never used
+ex19.py:41:5: F841 local variable 'median' is assigned to but never used
+ex19.py:86:80: E501 line too long (84 > 79 characters)
+ex19.py:166:5: F841 local variable 'config' is assigned to but never used
+ex19.py:166:80: E501 line too long (82 > 79 characters)
+ex19.py:173:5: F841 local variable 'error_codes' is assigned to but never used
+
+File: ex2.py
+ex2.py:8:80: E501 line too long (85 > 79 characters)
+ex2.py:30:80: E501 line too long (83 > 79 characters)
+ex2.py:40:80: E501 line too long (81 > 79 characters)
+ex2.py:96:80: E501 line too long (98 > 79 characters)
+
+File: ex20.py
+ex20.py:2:80: E501 line too long (86 > 79 characters)
+ex20.py:3:80: E501 line too long (92 > 79 characters)
+ex20.py:121:5: F841 local variable 'admin_password' is assigned to but never used
+ex20.py:198:80: E501 line too long (85 > 79 characters)
+ex20.py:213:80: E501 line too long (80 > 79 characters)
+ex20.py:229:80: E501 line too long (83 > 79 characters)
+
+File: ex21.py
+ex21.py:2:80: E501 line too long (83 > 79 characters)
+ex21.py:3:80: E501 line too long (84 > 79 characters)
+ex21.py:45:16: E741 ambiguous variable name 'l'
+ex21.py:59:80: E501 line too long (82 > 79 characters)
+ex21.py:178:80: E501 line too long (87 > 79 characters)
+
+File: ex22.py
+ex22.py:2:80: E501 line too long (82 > 79 characters)
+ex22.py:3:80: E501 line too long (94 > 79 characters)
+ex22.py:6:1: F401 'csv' imported but unused
+ex22.py:10:1: F401 'math' imported but unused
+ex22.py:13:1: F401 're' imported but unused
+ex22.py:15:1: F401 'typing.Tuple' imported but unused
+ex22.py:15:1: F401 'typing.Union' imported but unused
+ex22.py:64:80: E501 line too long (80 > 79 characters)
+ex22.py:135:80: E501 line too long (84 > 79 characters)
+ex22.py:176:80: E501 line too long (80 > 79 characters)
+ex22.py:223:80: E501 line too long (82 > 79 characters)
+ex22.py:296:80: E501 line too long (87 > 79 characters)
+ex22.py:326:80: E501 line too long (83 > 79 characters)
+ex22.py:336:80: E501 line too long (103 > 79 characters)
+ex22.py:345:80: E501 line too long (84 > 79 characters)
+ex22.py:381:1: W293 blank line contains whitespace
+ex22.py:382:80: E501 line too long (120 > 79 characters)
+ex22.py:383:1: W293 blank line contains whitespace
+ex22.py:390:1: W293 blank line contains whitespace
+ex22.py:396:80: E501 line too long (85 > 79 characters)
+ex22.py:405:1: W293 blank line contains whitespace
+ex22.py:411:1: W293 blank line contains whitespace
+ex22.py:412:80: E501 line too long (97 > 79 characters)
+ex22.py:413:1: W293 blank line contains whitespace
+ex22.py:433:80: E501 line too long (80 > 79 characters)
+ex22.py:444:80: E501 line too long (80 > 79 characters)
+ex22.py:526:80: E501 line too long (80 > 79 characters)
+ex22.py:552:80: E501 line too long (85 > 79 characters)
+ex22.py:578:80: E501 line too long (82 > 79 characters)
+ex22.py:601:80: E501 line too long (84 > 79 characters)
+ex22.py:698:80: E501 line too long (84 > 79 characters)
+ex22.py:724:80: E501 line too long (82 > 79 characters)
+ex22.py:731:80: E501 line too long (88 > 79 characters)
+ex22.py:818:80: E501 line too long (82 > 79 characters)
+ex22.py:838:80: E501 line too long (83 > 79 characters)
+ex22.py:847:80: E501 line too long (86 > 79 characters)
+ex22.py:850:80: E501 line too long (86 > 79 characters)
+ex22.py:853:80: E501 line too long (83 > 79 characters)
+ex22.py:871:80: E501 line too long (80 > 79 characters)
+ex22.py:888:80: E501 line too long (87 > 79 characters)
+ex22.py:914:80: E501 line too long (84 > 79 characters)
+ex22.py:927:80: E501 line too long (103 > 79 characters)
+ex22.py:936:80: E501 line too long (84 > 79 characters)
+ex22.py:980:9: F841 local variable 'email_body' is assigned to but never used
+ex22.py:980:80: E501 line too long (113 > 79 characters)
+ex22.py:994:80: E501 line too long (82 > 79 characters)
+ex22.py:998:80: E501 line too long (80 > 79 characters)
+ex22.py:1001:80: E501 line too long (82 > 79 characters)
+
+File: ex23.py
+ex23.py:2:80: E501 line too long (104 > 79 characters)
+ex23.py:7:1: F401 'typing.Optional' imported but unused
+ex23.py:7:1: F401 'typing.Tuple' imported but unused
+ex23.py:7:1: F401 'typing.Union' imported but unused
+ex23.py:30:80: E501 line too long (85 > 79 characters)
+ex23.py:31:80: E501 line too long (84 > 79 characters)
+ex23.py:32:80: E501 line too long (108 > 79 characters)
+ex23.py:37:80: E501 line too long (86 > 79 characters)
+ex23.py:38:80: E501 line too long (111 > 79 characters)
+ex23.py:51:80: E501 line too long (84 > 79 characters)
+ex23.py:89:80: E501 line too long (107 > 79 characters)
+ex23.py:102:80: E501 line too long (95 > 79 characters)
+ex23.py:112:80: E501 line too long (85 > 79 characters)
+ex23.py:113:80: E501 line too long (84 > 79 characters)
+ex23.py:114:80: E501 line too long (88 > 79 characters)
+ex23.py:164:80: E501 line too long (80 > 79 characters)
+ex23.py:174:80: E501 line too long (93 > 79 characters)
+ex23.py:177:80: E501 line too long (81 > 79 characters)
+ex23.py:207:80: E501 line too long (81 > 79 characters)
+ex23.py:225:80: E501 line too long (81 > 79 characters)
+ex23.py:242:80: E501 line too long (82 > 79 characters)
+ex23.py:264:80: E501 line too long (88 > 79 characters)
+ex23.py:351:80: E501 line too long (86 > 79 characters)
+ex23.py:354:80: E501 line too long (82 > 79 characters)
+ex23.py:440:80: E501 line too long (88 > 79 characters)
+ex23.py:442:80: E501 line too long (88 > 79 characters)
+ex23.py:453:80: E501 line too long (84 > 79 characters)
+ex23.py:522:80: E501 line too long (80 > 79 characters)
+ex23.py:526:80: E501 line too long (81 > 79 characters)
+ex23.py:533:80: E501 line too long (83 > 79 characters)
+ex23.py:539:80: E501 line too long (82 > 79 characters)
+ex23.py:567:80: E501 line too long (83 > 79 characters)
+ex23.py:596:80: E501 line too long (82 > 79 characters)
+ex23.py:601:80: E501 line too long (80 > 79 characters)
+ex23.py:660:80: E501 line too long (84 > 79 characters)
+ex23.py:885:80: E501 line too long (85 > 79 characters)
+ex23.py:986:80: E501 line too long (80 > 79 characters)
+ex23.py:988:80: E501 line too long (80 > 79 characters)
+ex23.py:992:80: E501 line too long (81 > 79 characters)
+
+File: ex3.py
+No violations found.
+
+File: ex4.py
+ex4.py:1:80: E501 line too long (84 > 79 characters)
+
+File: ex5.py
+ex5.py:21:80: E501 line too long (85 > 79 characters)
+ex5.py:25:80: E501 line too long (98 > 79 characters)
+
+File: ex6.py
+ex6.py:45:1: W191 indentation contains tabs
+ex6.py:45:1: E101 indentation contains mixed spaces and tabs
+ex6.py:46:1: W191 indentation contains tabs
+ex6.py:46:1: E101 indentation contains mixed spaces and tabs
+ex6.py:47:1: W191 indentation contains tabs
+ex6.py:47:1: E101 indentation contains mixed spaces and tabs
+ex6.py:48:1: W191 indentation contains tabs
+ex6.py:48:1: E101 indentation contains mixed spaces and tabs
+ex6.py:49:1: W191 indentation contains tabs
+ex6.py:49:1: E101 indentation contains mixed spaces and tabs
+ex6.py:50:1: W191 indentation contains tabs
+ex6.py:50:1: E101 indentation contains mixed spaces and tabs
+
+File: ex7.py
+ex7.py:11:80: E501 line too long (86 > 79 characters)
+ex7.py:34:80: E501 line too long (82 > 79 characters)
+
+File: ex8.py
+ex8.py:22:80: E501 line too long (86 > 79 characters)
+
+File: ex9.py
+No violations found.
+
+
+Radon Cyclomatic Complexity
+
+ex1.py
+    M 145:4 Interface.execute - A
+    C 41:0 Interface - A
+    M 74:4 Interface.Encode - A
+    M 90:4 Interface.Decode - A
+    M 106:4 Interface.hashVal - A
+    M 117:4 Interface.showFuncs - A
+    M 158:4 Interface.run - A
+    M 126:4 Interface.Exit - A
+    F 170:0 main - A
+    M 44:4 Interface.__init__ - A
+    M 62:4 Interface.hashDoc - A
+    M 66:4 Interface.DeDoc - A
+    M 70:4 Interface.EnDoc - A
+    M 123:4 Interface.SetText - A
+    M 133:4 Interface.Help - A
+ex10.py
+    F 10:0 LoadConfig - A
+    F 17:0 TestFunction - A
+    C 6:0 Config - A
+ex11.py
+    C 16:0 Order - A
+    C 5:0 OrderStatus - A
+    M 29:4 Order.create_line_item - A
+    M 34:4 Order.set_status - A
+ex12.py
+    C 9:0 OrderRepository - A
+    C 15:0 StripePaymentProcessor - A
+    M 24:4 StripePaymentProcessor.process_payment - A
+    C 5:0 PaymentServiceConnectionError - A
+    M 10:4 OrderRepository.find_order - A
+    M 12:4 OrderRepository.compute_order_total_price - A
+    M 16:4 StripePaymentProcessor.__init__ - A
+    M 20:4 StripePaymentProcessor.connect_to_service - A
+ex13.py
+    C 5:0 OrderManagementSystem - A
+    M 15:4 OrderManagementSystem.compute_order_total_price - A
+    M 6:4 OrderManagementSystem.__init__ - A
+    M 9:4 OrderManagementSystem.create_order - A
+    M 12:4 OrderManagementSystem.find_order - A
+ex14.py
+    C 8:0 Employee - B
+    M 13:4 Employee.take_a_holiday - A
+    C 42:0 Company - A
+    M 49:4 Company.find_managers - A
+    M 52:4 Company.find_vice_presidents - A
+    M 55:4 Company.find_interns - A
+    M 58:4 Company.pay_employee - A
+    F 67:0 main - A
+    C 32:0 HourlyEmployee - A
+    C 38:0 SalariedEmployee - A
+    M 43:4 Company.__init__ - A
+    M 46:4 Company.add_employee - A
+ex15.py
+    C 5:0 Customer - A
+ex16.py
+    C 5:0 LineItem - A
+    M 10:4 LineItem.total_price - A
+ex17.py
+    F 5:0 main - A
+ex18.py
+    F 70:0 calculate_insurance_premium - D
+    F 11:0 determine_user_access_level - C
+    F 186:0 process_customer_order - C
+    F 307:0 process_payment - A
+    F 320:0 generate_report - A
+    C 371:0 ReportConfig - A
+    F 301:0 calculate_shipping_cost - A
+    F 391:0 generate_report_better - A
+    M 372:4 ReportConfig.__init__ - A
+ex19.py
+    F 48:0 validate_password - B
+    F 76:0 process_status_code - B
+    F 111:0 process_data - A
+    C 132:0 Logger - A
+    F 21:0 process_user_data - A
+    F 32:0 calculate_statistics - A
+    F 93:0 generate_report - A
+    F 154:0 cleanup_resources - A
+    F 163:0 main - A
+    M 135:4 Logger.__init__ - A
+    M 139:4 Logger.log - A
+    M 148:4 Logger.get_logs - A
+ex2.py
+    C 12:0 Employee - B
+    M 19:4 Employee.take_a_holiday - A
+    C 58:0 Company - A
+    M 68:4 Company.find_managers - A
+    M 76:4 Company.find_vice_presidents - A
+    M 84:4 Company.find_interns - A
+    M 92:4 Company.pay_employee - A
+    F 105:0 main - A
+    C 44:0 HourlyEmployee - A
+    C 52:0 SalariedEmployee - A
+    M 61:4 Company.__init__ - A
+    M 64:4 Company.add_employee - A
+ex20.py
+    F 136:0 calculate_shipping_cost - B
+    F 11:0 calculate_price - A
+    F 45:0 retry_operation - A
+    F 197:0 calculate_price_better - A
+    F 27:0 fetch_data_from_api - A
+    F 117:0 authenticate_user - A
+    F 69:0 connect_to_services - A
+    F 99:0 read_configuration - A
+    F 164:0 process_user_data - A
+    F 226:0 connect_to_services_better - A
+    C 210:0 ServiceConfig - A
+ex21.py
+    F 135:0 min - A
+    F 45:0 calc_stats - A
+    F 80:0 process_data - A
+    F 162:0 calculate_statistics - A
+    F 108:0 x - A
+    F 125:0 list - A
+    C 12:0 userAccount - A
+    C 141:0 UserAccount - A
+    F 65:0 FetchUserData - A
+    F 120:0 f - A
+    F 130:0 str - A
+    M 13:4 userAccount.__init__ - A
+    M 23:4 userAccount.vErYInTEReSTINGFuNCtION - A
+    M 28:4 userAccount.getUserDetails - A
+    M 37:4 userAccount.update_user_info - A
+    M 142:4 UserAccount.__init__ - A
+    M 148:4 UserAccount.get_user_details - A
+    M 156:4 UserAccount.update_user_info - A
+ex22.py
+    F 19:0 process_customer_order_long - F
+    F 647:0 _validate_order_data - C
+    F 770:0 _calculate_pricing - C
+    F 838:0 _process_payment - B
+    F 526:0 process_customer_order_better - B
+    F 698:0 _check_inventory_and_get_details - B
+    F 941:0 _calculate_delivery_date - B
+    F 685:0 _load_customer_data - A
+    F 897:0 _update_inventory - A
+    F 964:0 _send_confirmation_email - A
+    F 994:0 _update_customer_records - A
+    F 1015:0 _save_order_to_database - A
+    F 1059:0 _log_transaction - A
+    F 918:0 _generate_shipping_label - A
+ex23.py
+    F 296:0 validate_user_data_nested - F
+    F 13:0 check_user_permission_nested - E
+    F 139:0 process_order_nested - E
+    F 855:0 _validate_contact - C
+    F 892:0 _validate_address - C
+    F 964:0 _validate_password - C
+    F 717:0 _calculate_shipping_cost - B
+    F 822:0 _validate_name - B
+    F 566:0 _check_employee_permissions - B
+    F 499:0 check_user_permission_better - B
+    F 532:0 _check_manager_permissions - B
+    F 613:0 process_order_better - B
+    F 756:0 _process_payment - B
+    F 690:0 _apply_customer_discounts - B
+    F 943:0 _validate_username - B
+    F 679:0 _calculate_order_total - A
+    F 601:0 _is_same_department - A
+    F 793:0 validate_user_data_better - A
+    C 466:0 Role - A
+    C 474:0 ResourceType - A
+    C 481:0 Action - A
+    C 491:0 Visibility - A
+ex4.py
+    F 28:0 encode - A
+    F 35:0 decode - A
+    F 42:0 hash_val - A
+    F 4:0 encoding_algos - A
+    F 8:0 decoding_algos - A
+    F 12:0 hashing_algos - A
+    F 16:0 has_encoding_algo - A
+    F 20:0 has_decoding_algo - A
+    F 24:0 has_hashing_algo - A
+ex5.py
+    F 17:0 parse_command_string - A
+    F 12:0 execute - A
+    F 38:0 run_shell - A
+    F 8:0 add_command - A
+    F 32:0 shell_input - A
+ex6.py
+    F 65:0 process_hash - A
+    F 78:0 process_decode - A
+    F 91:0 process_encode - A
+    F 54:0 exit_shell - A
+    F 61:0 help_shell - A
+    F 104:0 main - A
+ex7.py
+    C 20:0 Shell - A
+    M 23:4 Shell.shellInput - A
+    M 40:4 Shell.parseCmd - A
+    C 6:0 Command - A
+    M 13:4 Command.getArgStr - A
+    M 10:4 Command.__repr__ - A
+    M 16:4 Command.__str__ - A
+ex8.py
+    F 4:0 EncodingManager - A
+ex9.py
+    F 1:0 Hasher - A
+
+178 blocks (classes, functions, methods) analyzed.
+Average complexity: A (4.101123595505618)
